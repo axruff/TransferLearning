@@ -1,6 +1,3 @@
-# DomainAdaptation
-
-
 
 <!--- ------------------------------------------------------------------------------- -->
 <!--- =============================================================================== -->
@@ -9,6 +6,28 @@
 <!--- ------------------------------------------------------------------------------- -->
 <!--- =============================================================================== -->
 <!--- ------------------------------------------------------------------------------- -->
+
+
+##### Table of Contents
+- [Domain Adaptation and Transfer Learning](#domain-adaptation-and-transfer-learning) 
+  - [Surveys](#surveys)
+  - [Discrepancy-based Approaches](#discrepancy-based-approaches)
+  - [Adversarial-based Approaches](#adversarial-based-approaches)
+    - [Generative Models](#generative-models) 
+    - [Non-generative Models](#non-generative-models) 
+  - [Reconstruction-based Approaches](#reconstruction-based-approaches)
+  - [Synthetic Data](#synthetic-data)
+  - [Style Transfer](#style-transfer) 
+  - [Texture Synthesis](#texture-synthesis) 
+
+
+
+Notations
+
+![#c5ff15](https://placehold.it/15/c5ff15/000000?text=+) Read and worked
+
+![#ff0000](https://placehold.it/15/ff0000/000000?text=+) TODO
+
 
 ## Surveys 
 
@@ -224,3 +243,99 @@ Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Su
 <img src="https://phillipi.github.io/pix2pix/images/teaser_v3.jpg" width="300">
 
 [Pros and Cons of GAN Evaluation Measures (2018)](https://arxiv.org/abs/1802.03446)
+
+
+
+
+<!--- ------------------------------------------------------------------------------- -->
+<!--- =============================================================================== -->
+<!--- ------------------------------------------------------------------------------- -->
+# Synthetic Data
+<!--- ------------------------------------------------------------------------------- -->
+<!--- =============================================================================== -->
+<!--- ------------------------------------------------------------------------------- -->
+
+[2013 - Simulation as an engine of physical scene understanding](https://www.pnas.org/content/110/45/18327)
+
+[Playing for Data: Ground Truth from Computer Games](https://arxiv.org/abs/1608.02192)
+
+<img src="https://github.com/axruff/ML_papers/raw/master/images/PlayingforData.png" width="300">
+
+
+[2017 - On Pre-Trained Image Features and Synthetic Images for Deep Learning)](https://arxiv.org/abs/1710.10710)
+![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
+
+<img src="https://media.springernature.com/lw785/springer-static/image/chp%3A10.1007%2F978-3-030-11009-3_42/MediaObjects/478770_1_En_42_Fig3_HTML.png" width="350">
+
+[2017 - Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World](https://arxiv.org/abs/1703.06907)
+
+<img src="https://i.pinimg.com/564x/99/e9/65/99e9657382ef1e94e2acb958c7c1cf6c.jpg" width="350">
+
+
+[2017 - Training Deep Networks with Synthetic Data: Bridging the Reality Gap by Domain Randomization](https://arxiv.org/abs/1804.06516)
+![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
+<img src="https://research.nvidia.com/sites/default/files/publications/cvpr-fig1_down4.png" width="350">
+
+
+[2018 - Learning to Segment via Cut-and-Paste](http://openaccess.thecvf.com/content_ECCV_2018/papers/Tal_Remez_Learning_to_Segment_ECCV_2018_paper.pdf)
+
+<img src="https://cdn-images-1.medium.com/max/1600/0*b4CBigBlK_LyGU16" width="350">
+
+
+<!--- ------------------------------------------------------------------------------- -->
+<!--- =============================================================================== -->
+<!--- ------------------------------------------------------------------------------- -->
+# Style Transfer
+<!--- ------------------------------------------------------------------------------- -->
+<!--- =============================================================================== -->
+<!--- ------------------------------------------------------------------------------- -->
+
+[2016 - Image Style Transfer Using Convolutional Neural Networks](https://ieeexplore.ieee.org/document/7780634)
+
+<imf src="https://i-h1.pinimg.com/564x/8a/e4/97/8ae497d18a7c409c2da67833d5586461.jpg" width="250">
+
+
+[2016 Perceptual losses for real-time style transfer and super-resolution](https://arxiv.org/abs/1603.08155?context=cs) [[github]](https://github.com/jcjohnson/fast-neural-style)
+![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
+
+<img src="https://raw.githubusercontent.com/sunshineatnoon/Paper-Collection/master/images/RTNS.png" width="350">
+
+
+[2017 - **[CycleGAN]** Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/abs/1703.10593)
+
+<img src="https://junyanz.github.io/CycleGAN/images/teaser.jpg" width="400">
+
+[2016 - **[pix2pix]** Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/abs/1611.07004)[[github]](https://phillipi.github.io/pix2pix/)
+
+
+[2018 - **[DRIT]** Diverse Image-to-Image Translation via Disentangled Representations](https://arxiv.org/abs/1808.00948)[[github]](https://github.com/HsinYingLee/DRIT)
+![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
+
+<img src="https://media.springernature.com/original/springer-static/image/chp%3A10.1007%2F978-3-030-01246-5_3/MediaObjects/474172_1_En_3_Fig3_HTML.gif" width="350">
+
+[2018 - A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948)[[github]](https://github.com/NVlabs/stylegan)
+
+<img src="https://github.com/NVlabs/stylegan/raw/master/stylegan-teaser.png" width="350">
+
+[2018 - Deep Painterly Harmonization](https://arxiv.org/abs/1804.03189v3) [[github]](https://github.com/luanfujun/deep-painterly-harmonization)
+
+<img src="https://i.pinimg.com/564x/f6/fa/74/f6fa740395c1b99ecee2b71f46b16751.jpg" width="350">
+
+<!--- ------------------------------------------------------------------------------- -->
+<!--- =============================================================================== -->
+<!--- ------------------------------------------------------------------------------- -->
+# Texture Synthesis
+<!--- ------------------------------------------------------------------------------- -->
+<!--- =============================================================================== -->
+<!--- ------------------------------------------------------------------------------- -->
+
+[2015 - Texture Synthesis Using Convolutional Neural Networks](https://arxiv.org/abs/1505.07376) [[github]](https://mc.ai/tensorflow-implementation-of-paper-texture-synthesis-using-convolutional-neural-networks/)
+
+<img src="https://dmitryulyanov.github.io/assets/online-neural-doodle/textures.png" width="300">
+
+DeepTextures
+http://bethgelab.org/deeptextures/
+
+Textures database
+https://www.textures.com/index.php
+
