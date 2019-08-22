@@ -196,6 +196,10 @@ the realism of synthetic images using unlabeled real data
 
 <img src="http://thoth.inrialpes.fr/research/ganeval/images/fig1.png" width="350">
 
+[2019 - U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation](https://arxiv.org/abs/1907.10830)
+
+<img src="https://pythonawesome.com/content/images/2019/08/generator.png" width="350">
+
 
 <!--- ------------------------------------------------------------------------------- -->
 <!--- =============================================================================== -->
