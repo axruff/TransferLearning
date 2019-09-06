@@ -133,30 +133,31 @@ in marginal distributions across domains by adding multiple adaptation layers an
 
 ### Generative Models
 
-[Generative Adversarial Networks (2014)](https://arxiv.org/abs/1406.2661)
+[2014 - Generative Adversarial Networks](https://arxiv.org/abs/1406.2661)
 
 ![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
-[**[DANN]** Domain-Adversarial Training of Neural Networks (2015)](https://arxiv.org/abs/1505.07818) [github](https://github.com/fungtion/DANN)
+[2015 - **[DANN]** Domain-Adversarial Training of Neural Networks](https://arxiv.org/abs/1505.07818)- [[github]](https://github.com/fungtion/DANN)
 
 <img src="https://camo.githubusercontent.com/5201a6af692fe44c22cc2dfda8e9db02fb0e0ffc/68747470733a2f2f73312e617831782e636f6d2f323031382f30312f31322f70384b5479442e6d642e6a7067" width="350">
 
 
-[Improved techniques for training GANs (2016)](https://arxiv.org/abs/1606.03498) [github](https://github.com/openai/improved-gan)
+[2016 - Improved techniques for training GANs](https://arxiv.org/abs/1606.03498) [github](https://github.com/openai/improved-gan)
 
 
-[Domain Separation Networks (2016)](https://arxiv.org/abs/1608.06019)
+[2016 - Domain Separation Networks](https://arxiv.org/abs/1608.06019)
 
 <img src="https://i.pinimg.com/564x/de/50/fa/de50fac81074e16ca78114f78a379246.jpg" width="350">
 
 
-![#c5ff15](https://placehold.it/15/c5ff15/000000?text=+) 
-[**[PixelDA]** Unsupervised pixel-level domain adaptation with generative adversarial networks (2016)](https://arxiv.org/abs/1612.05424) 
+ 
+[2016 - **[PixelDA]** Unsupervised pixel-level domain adaptation with generative adversarial networks](https://arxiv.org/abs/1612.05424) 
+![#c5ff15](https://placehold.it/15/c5ff15/000000?text=+)
 
 ***[Needs a lot of target images to successfully learn the generator]***
 
 <img src="https://i.pinimg.com/564x/f8/52/1e/f8521e45415762465e5e01452a963a31.jpg" width="400">
 
-[**[ADDA]** Adversarial discriminative domain adaptation (2017)](https://arxiv.org/abs/1702.05464)
+[2017 - **[ADDA]** Adversarial discriminative domain adaptation](https://arxiv.org/abs/1702.05464)
 
 <img src="https://raw.githubusercontent.com/joshua19881228/my_blogs/master/Computer_Vision/Reading_Note/figures/ADDA_1.jpg" width="400">
 
@@ -165,9 +166,9 @@ without correspondence supervision. A trained CoGAN can adapt the input noise ve
 two distributions and share the labels. Therefore, the shared labels of synthetic target samples can be used to train the target
 model.
 
-[**[CoGAN]** Coupled generative adversarial networks (2016)](https://arxiv.org/abs/1606.07536)
+[2016 - **[CoGAN]** Coupled generative adversarial networks](https://arxiv.org/abs/1606.07536)
 
-[Pixel-level domain transfer (2016)](https://arxiv.org/pdf/1603.07442.pdf) [[github]](https://github.com/fxia22/PixelDTGAN)
+[2016 - Pixel-level domain transfer](https://arxiv.org/pdf/1603.07442.pdf) - [[github]](https://github.com/fxia22/PixelDTGAN)
 
 <img src="https://pbs.twimg.com/media/CgKhQ2hWEAAE231.jpg:large" width="400">
 
@@ -176,28 +177,33 @@ that uses a combined objective of minimizing an adversarial
 loss and a self-regularization loss, where the goal is to improve
 the realism of synthetic images using unlabeled real data
 
+[2016 - Learning from Simulated and Unsupervised Images through Adversarial Training](https://arxiv.org/abs/1612.07828)
+
+<img src="https://github.com/axruff/ML_papers/raw/master/images/123.png" width="300">
+
+[2017 - Wasserstein GAN](https://arxiv.org/abs/1701.07875)
+![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
+
 [2017 - **[PGAN]**: Progressive Growing of GANs for Improved Quality, Stability, and Variation](https://arxiv.org/abs/1710.10196v3)
 ![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
 
 <img src="https://adriancolyer.files.wordpress.com/2018/05/progressive-gans-fig-1.jpeg?w=640" width="350">
 
-[Learning from Simulated and Unsupervised Images through Adversarial Training (2016)](https://arxiv.org/abs/1612.07828)
 
-<img src="https://github.com/axruff/ML_papers/raw/master/images/123.png" width="300">
-
-[Improved Adversarial Systems for 3D Object Generation and Reconstruction (2017)](https://arxiv.org/abs/1707.09557)
+[2017 - Improved Adversarial Systems for 3D Object Generation and Reconstruction](https://arxiv.org/abs/1707.09557)
 
 
-[Toward Multimodal Image-to-Image Translation (2018)](https://arxiv.org/abs/1711.11586)
+[2018 - Toward Multimodal Image-to-Image Translation](https://arxiv.org/abs/1711.11586)
 
 <img src="https://junyanz.github.io/BicycleGAN/index_files/teaser.jpg" width="400"> 
 
-[From Source to Target and Back: Symmetric Bi-Directional Adaptive GAN (2018)](http://openaccess.thecvf.com/content_cvpr_2018/html/Russo_From_Source_to_CVPR_2018_paper.html)
+[2018 - From Source to Target and Back: Symmetric Bi-Directional Adaptive GAN](http://openaccess.thecvf.com/content_cvpr_2018/html/Russo_From_Source_to_CVPR_2018_paper.html)
 
+
+[2018 - SRDA: Generating Instance Segmentation Annotation Via Scanning, Reasoning And Domain Adaptation](https://arxiv.org/abs/1801.08839) ***[Geometry-guided GAN]***
 ![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
-[SRDA: Generating Instance Segmentation Annotation Via Scanning, Reasoning And Domain Adaptation (2018)](https://arxiv.org/abs/1801.08839) ***[Geometry-guided GAN]***
 
-[How good is my GAN? (2018)](https://arxiv.org/abs/1807.09499)
+[2018 - How good is my GAN?](https://arxiv.org/abs/1807.09499)
 
 <img src="http://thoth.inrialpes.fr/research/ganeval/images/fig1.png" width="350">
 
