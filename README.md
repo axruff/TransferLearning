@@ -127,7 +127,16 @@ in marginal distributions across domains by adding multiple adaptation layers an
 
 [**[Dlid]**: Deep learning for domain adaptation by interpolating between domains (2013)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.664.4509) [geometric criterion]
 
+
+
+
+<!--- ------------------------------------------------------------------------------- -->
+<!--- =============================================================================== -->
+<!--- ------------------------------------------------------------------------------- -->
 ## Adversarial-based Approaches
+<!--- ------------------------------------------------------------------------------- -->
+<!--- =============================================================================== -->
+<!--- ------------------------------------------------------------------------------- -->
 
 *Description: using domain discriminators to encourage domain confusion through an adversarial objective*
 
