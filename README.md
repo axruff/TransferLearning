@@ -201,6 +201,11 @@ the realism of synthetic images using unlabeled real data
 
 <img src="http://thoth.inrialpes.fr/research/ganeval/images/fig1.png" width="350">
 
+[2018 - A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948)
+![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
+
+<img src="https://research.nvidia.com/sites/default/files/publications/stylegan-teaser-small.jpg" width="350">
+
 [2019 - U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation](https://arxiv.org/abs/1907.10830)
 ![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
 
