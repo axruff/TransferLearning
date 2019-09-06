@@ -177,6 +177,7 @@ loss and a self-regularization loss, where the goal is to improve
 the realism of synthetic images using unlabeled real data
 
 [2017 - **[PGAN]**: Progressive Growing of GANs for Improved Quality, Stability, and Variation](https://arxiv.org/abs/1710.10196v3)
+![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
 
 <img src="https://adriancolyer.files.wordpress.com/2018/05/progressive-gans-fig-1.jpeg?w=640" width="350">
 
