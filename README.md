@@ -149,6 +149,10 @@ in marginal distributions across domains by adding multiple adaptation layers an
 
 <img src="https://camo.githubusercontent.com/5201a6af692fe44c22cc2dfda8e9db02fb0e0ffc/68747470733a2f2f73312e617831782e636f6d2f323031382f30312f31322f70384b5479442e6d642e6a7067" width="350">
 
+[2015 - Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks](https://arxiv.org/abs/1506.05751)
+
+<img src="http://soumith.ch/eyescream/images/LAPGAN.png" width="350">
+
 
 [2016 - Improved techniques for training GANs](https://arxiv.org/abs/1606.03498) [github](https://github.com/openai/improved-gan)
 
