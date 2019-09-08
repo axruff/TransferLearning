@@ -170,6 +170,21 @@ in marginal distributions across domains by adding multiple adaptation layers an
 
 <img src="https://i.pinimg.com/564x/f8/52/1e/f8521e45415762465e5e01452a963a31.jpg" width="400">
 
+[2016 - **[CoGAN]** Coupled generative adversarial networks](https://arxiv.org/abs/1606.07536)
+
+[2016 - Pixel-level domain transfer](https://arxiv.org/pdf/1603.07442.pdf) - [[github]](https://github.com/fxia22/PixelDTGAN)
+
+<img src="https://pbs.twimg.com/media/CgKhQ2hWEAAE231.jpg:large" width="400">
+
+Shrivastava et al. [104]() developed a method for **simulated+unsupervised (S+U)** learning
+that uses a combined objective of minimizing an adversarial
+loss and a self-regularization loss, where the goal is to improve
+the realism of synthetic images using unlabeled real data
+
+[2016 - Learning from Simulated and Unsupervised Images through Adversarial Training](https://arxiv.org/abs/1612.07828)
+
+<img src="https://github.com/axruff/ML_papers/raw/master/images/123.png" width="300">
+
 
 [2017 - **[MAD-GAN]** Multi-Agent Diverse Generative Adversarial Networks](https://arxiv.org/abs/1704.02906)
 
@@ -185,20 +200,10 @@ without correspondence supervision. A trained CoGAN can adapt the input noise ve
 two distributions and share the labels. Therefore, the shared labels of synthetic target samples can be used to train the target
 model.
 
-[2016 - **[CoGAN]** Coupled generative adversarial networks](https://arxiv.org/abs/1606.07536)
+[2017 - **[PacGAN]** PacGAN: The power of two samples in generative adversarial networks](https://arxiv.org/abs/1712.04086)
 
-[2016 - Pixel-level domain transfer](https://arxiv.org/pdf/1603.07442.pdf) - [[github]](https://github.com/fxia22/PixelDTGAN)
-
-<img src="https://pbs.twimg.com/media/CgKhQ2hWEAAE231.jpg:large" width="400">
-
-Shrivastava et al. [104]() developed a method for **simulated+unsupervised (S+U)** learning
-that uses a combined objective of minimizing an adversarial
-loss and a self-regularization loss, where the goal is to improve
-the realism of synthetic images using unlabeled real data
-
-[2016 - Learning from Simulated and Unsupervised Images through Adversarial Training](https://arxiv.org/abs/1612.07828)
-
-<img src="https://github.com/axruff/ML_papers/raw/master/images/123.png" width="300">
+> We propose a principled approach to handling mode collapse, which we call packing. The main idea is to modify the discriminator to make
+decisions based on multiple samples from the same class, either real or artificially generated.
 
 [2017 - Wasserstein GAN](https://arxiv.org/abs/1701.07875)
 ![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
