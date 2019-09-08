@@ -194,10 +194,17 @@ the realism of synthetic images using unlabeled real data
 ![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
 
 [2017 - **[PGAN]**: Progressive Growing of GANs for Improved Quality, Stability, and Variation](https://arxiv.org/abs/1710.10196v3)
-![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
+![#c5ff15](https://placehold.it/15/c5ff15/000000?text=+)
 
 <img src="https://adriancolyer.files.wordpress.com/2018/05/progressive-gans-fig-1.jpeg?w=640" width="350">
 
+> The key idea is to grow both the generator and discriminator progressively: starting
+from a low resolution, we add new layers that model increasingly fine details as
+training progresses. 
+
+> Typically, the generator is of main interest – the discriminator is an adaptive loss
+function that gets discarded once the generator has been trained. There are multiple potential problems with this formulation. When we measure the distance between the training distribution and the generated distribution, the gradients can point to more or less random
+directions if the distributions do not have substantial overlap, i.e., are too easy to tell apart
 
 [2017 - Improved Adversarial Systems for 3D Object Generation and Reconstruction](https://arxiv.org/abs/1707.09557)
 
