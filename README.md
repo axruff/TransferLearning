@@ -149,7 +149,7 @@ in marginal distributions across domains by adding multiple adaptation layers an
 
 <img src="https://camo.githubusercontent.com/5201a6af692fe44c22cc2dfda8e9db02fb0e0ffc/68747470733a2f2f73312e617831782e636f6d2f323031382f30312f31322f70384b5479442e6d642e6a7067" width="350">
 
-[2015 - Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks](https://arxiv.org/abs/1506.05751)
+[2015 - **[LapGAN]** Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks](https://arxiv.org/abs/1506.05751)
 
 <img src="http://soumith.ch/eyescream/images/LAPGAN.png" width="350">
 
@@ -169,6 +169,12 @@ in marginal distributions across domains by adding multiple adaptation layers an
 ***[Needs a lot of target images to successfully learn the generator]***
 
 <img src="https://i.pinimg.com/564x/f8/52/1e/f8521e45415762465e5e01452a963a31.jpg" width="400">
+
+
+[2017 - **[MAD-GAN]** Multi-Agent Diverse Generative Adversarial Networks](https://arxiv.org/abs/1704.02906)
+
+> MAD-GAN is a multi-agent GAN architecture incorporating multiple generators and one discriminator. Second, to enforce that different generators capture diverse high probability modes, the discriminator of MADGAN is designed such that along with finding the real and
+fake samples, it is also required to identify the generator that generated the given fake sample.
 
 [2017 - **[ADDA]** Adversarial discriminative domain adaptation](https://arxiv.org/abs/1702.05464)
 
