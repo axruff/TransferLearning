@@ -206,6 +206,24 @@ training progresses.
 function that gets discarded once the generator has been trained. There are multiple potential problems with this formulation. When we measure the distance between the training distribution and the generated distribution, the gradients can point to more or less random
 directions if the distributions do not have substantial overlap, i.e., are too easy to tell apart
 
+> Large resolutions also necessitate using smaller minibatches due to memory
+constraints, further compromising training stability. 
+
+> This incremental nature allows the training to first discover large-scale structure of the
+image distribution and then shift attention to increasingly finer scale detail, instead of having to learn
+all scales simultaneously.
+
+> When new layers are added to the networks, we fade them in smoothly, as illustrated in Figure 2.
+This avoids sudden shocks to the already well-trained, smaller-resolution layers. 
+
+>  The benefit of doing this dynamically instead of during initialization is somewhat
+subtle, and relates to the scale-invariance in commonly used adaptive stochastic gradient descent
+methods such as **RMSProp** and **Adam**. These
+methods normalize a gradient update by its estimated standard deviation, thus making the update
+independent of the scale of the parameter. As a result, if some parameters have a larger dynamic
+range than others, they will take longer to adjust. This is a scenario modern initializers cause, and
+thus it is possible that a **learning rate** is both too large and too small at the same time. 
+
 [2017 - Improved Adversarial Systems for 3D Object Generation and Reconstruction](https://arxiv.org/abs/1707.09557)
 
 
