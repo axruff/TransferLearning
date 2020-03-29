@@ -11,6 +11,7 @@
 ##### Table of Contents
 
 - [Surveys](#surveys)
+- [Unsorted] (#unsorted)
 - [Discrepancy-based Approaches](#discrepancy-based-approaches)
 - [Adversarial-based Approaches](#adversarial-based-approaches)
   - [Generative Models](#generative-models) 
@@ -49,6 +50,11 @@ Notations
 
 [Visual Domain Adaptation Challenge (2018)] (http://ai.bu.edu/visda-2017/)
 
+## Unsorted 
+
+[2018 - Do Better ImageNet Models Transfer Better?](https://arxiv.org/abs/1805.08974)
+
+<img src="https://d3i71xaburhd42.cloudfront.net/8a8cfa45b4c0d071fbffa091c02670b19c94b693/1-Figure1-1.png" width="300">
 
 ## Discrepancy-based Approaches
 
