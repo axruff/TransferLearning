@@ -11,7 +11,7 @@
 ##### Table of Contents
 
 - [Surveys](#surveys)
-- [Unsorted] (#unsorted)
+- [Unsorted](#unsorted)
 - [Discrepancy-based Approaches](#discrepancy-based-approaches)
 - [Adversarial-based Approaches](#adversarial-based-approaches)
   - [Generative Models](#generative-models) 
@@ -54,12 +54,11 @@ Notations
 
 [2018 - Do Better ImageNet Models Transfer Better?](https://arxiv.org/abs/1805.08974)
 
-<img src="https://d3i71xaburhd42.cloudfront.net/8a8cfa45b4c0d071fbffa091c02670b19c94b693/1-Figure1-1.png" width="300">
+<img src="https://media.arxiv-vanity.com/render-output/2249859/tsne_figure.png" width="300">
 
 ## Discrepancy-based Approaches
 
-*Description: fine-tuning the deep network with labeled or unlabeled target data to diminish the domain shift*
-
+*Description: fine-tuning the deephttps://media.arxiv-vanity.com/render-output/2249859/tsne_figure.png
 - **Class Criterion**: uses the class label information as a guide for transferring knowledge between different domains. When the labeled samples from the target domain are available in supervised DA, **soft label** and metric learning are always effective [118], [86], [53], [45], [79]. When such samples are unavailable, some other techniques can be adopted to substitute for class labeled data, such as **pseudo labels** [75], [139], [130],[98] and **attribute representation** [29], [118]. Usually a small
 number of labeled samples from the target dataset is assumed to be available. 
 
