@@ -58,6 +58,7 @@ Notations
 
 [2019 - Revisiting Self-Supervised Visual Representation Learning](https://arxiv.org/abs/1901.09005)
 
+![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
 [2019 - A Large-scale Study of Representation Learning with the Visual Task Adaptation Benchmark](https://arxiv.org/abs/1910.04867)
 
 <img src="https://1.bp.blogspot.com/-FpaEErA665M/XcHniNVT8lI/AAAAAAAAE6g/0ri-gDfP9Xwn9Vqf7C6Pe-g7cyXGRVrnQCLcBGAsYHQ/s640/image1.png" width="300">
