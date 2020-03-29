@@ -56,6 +56,12 @@ Notations
 
 <img src="https://media.arxiv-vanity.com/render-output/2249859/tsne_figure.png" width="300">
 
+[2019 - Revisiting Self-Supervised Visual Representation Learning](https://arxiv.org/abs/1901.09005)
+
+[2019 - A Large-scale Study of Representation Learning with the Visual Task Adaptation Benchmark](https://arxiv.org/abs/1910.04867)
+
+<img src="https://1.bp.blogspot.com/-FpaEErA665M/XcHniNVT8lI/AAAAAAAAE6g/0ri-gDfP9Xwn9Vqf7C6Pe-g7cyXGRVrnQCLcBGAsYHQ/s640/image1.png" width="300">
+
 ## Discrepancy-based Approaches
 
 *Description: fine-tuning the deephttps://media.arxiv-vanity.com/render-output/2249859/tsne_figure.png
