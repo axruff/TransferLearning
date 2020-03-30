@@ -19,6 +19,8 @@
 - [Reconstruction-based Approaches](#reconstruction-based-approaches)
 - [Synthetic Data](#synthetic-data)
 - [Domain Randomization](#domain-randomization)
+  - [Uniform Randomization](#uniform-randomization)
+  - [Guided Randomization](#guided-randomization)
 - [Style Transfer](#style-transfer) 
 - [Texture Synthesis](#texture-synthesis) 
 
@@ -361,6 +363,10 @@ Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Su
 <!--- ------------------------------------------------------------------------------- -->
 <!--- =============================================================================== -->
 <!--- ------------------------------------------------------------------------------- -->
+
+The environment that we have full access to (i.e. simulator) **source domain** and the environment that we would like to transfer the model to **target domain** (i.e. physical world). Training happens in the source domain. We can control a set of N randomization parameters in the source domain eξ with a configuration ξ, sampled from a randomization space.
+
+## Uniform Randomization
 
 [2017 - Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World](https://arxiv.org/abs/1703.06907)
 
