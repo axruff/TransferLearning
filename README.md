@@ -385,7 +385,9 @@ The randomization parameters can control appearances of the scene, objects geome
 
 [2017 - Sim-to-Real Transfer of Robotic Control with Dynamics Randomization](https://arxiv.org/abs/1710.06537)
 
-<img src="https://xbpeng.github.io/projects/SimToReal/simtoreal_teaser.png" width="400">
+<sub>In this paper, we demonstrate a simple method to bridge this <b>"reality gap"</b>. By randomizing the dynamics of the simulator during training, we are able to develop policies that are capable of adapting to very different dynamics, including ones that differ significantly from the dynamics on which the policies were trained. This adaptivity enables the policies to generalize to the dynamics of the real world without any training on the physical system. Despite being trained exclusively in simulation, our policies are able to maintain a similar level of performance when deployed on a real robot, reliably moving an object to a desired location from random initial configurations. We explore the impact of various design decisions and show that the resulting policies are robust to significant calibration error.</sub>
+
+<img src="https://xbpeng.github.io/projects/SimToReal/simtoreal_teaser.png" width="500">
 
 <!--- ------------------------------------------------------------------------------- -->
 <!--- =============================================================================== -->
