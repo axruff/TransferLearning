@@ -389,6 +389,17 @@ The randomization parameters can control appearances of the scene, objects geome
 
 <img src="https://xbpeng.github.io/projects/SimToReal/simtoreal_teaser.png" width="500">
 
+
+## Guided Randomization
+
+### Optimization for Task Performance
+
+[2018 - Learning To Simulate](https://arxiv.org/abs/1810.02513)
+
+<sub>In this work, we propose a <b>reinforcement learning-based</b> method for automatically adjusting the parameters of any (non-differentiable) simulator, thereby controlling the distribution of synthesized data in order <b>to maximize the accuracy of a model trained on that data</b>. In contrast to prior art that hand-crafts these simulation parameters or adjusts only parts of the available parameters, our approach fully controls the simulator with the actual underlying goal of maximizing accuracy, rather than mimicking the real data distribution or randomly generating a large volume of data. We find that our approach <b>(i)</b> quickly converges to the optimal simulation parameters in controlled experiments and <b>(ii)</b> can indeed discover good sets of parameters for an image rendering simulator in actual computer vision applications.</sub>
+
+<img src="https://miro.medium.com/max/2000/1*fhiCkg3Dt2E5QyUVJE0RzQ.png" width="400">
+
 <!--- ------------------------------------------------------------------------------- -->
 <!--- =============================================================================== -->
 <!--- ------------------------------------------------------------------------------- -->
