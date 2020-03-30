@@ -364,6 +364,8 @@ Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Su
 <!--- =============================================================================== -->
 <!--- ------------------------------------------------------------------------------- -->
 
+Quotes and taxonomy of methods is from: [Lil'Log](https://lilianweng.github.io/lil-log/2019/05/05/domain-randomization.html#uniform-domain-randomization)
+
 The environment that we have full access to (i.e. simulator) **source domain** and the environment that we would like to transfer the model to **target domain** (i.e. physical world). Training happens in the source domain. We can control a set of N randomization parameters in the source domain eξ with a configuration ξ, sampled from a randomization space.
 During training, episodes are collected from source domain with randomization applied. Thus the training is exposed to a variety of environments and learns to generalize. In a way, *“discrepancies between the source and target domains are modeled as variability in the source domain.”* (quote from Peng et al. 2018)
 
@@ -392,7 +394,7 @@ The randomization parameters can control appearances of the scene, objects geome
 
 ## Guided Randomization
 
-### Optimization for Task Performance
+#### Optimization for Task Performance
 
 [2018 - Learning To Simulate](https://arxiv.org/abs/1810.02513)
 
@@ -409,7 +411,7 @@ Some believe that sim2real gap is a combination of **appearance gap** and **cont
 
 <img src="https://nv-tlabs.github.io/meta-sim/resources/meta-sim-teaser.png" width="350">
 
-### Match Real Data Distribution
+#### Match Real Data Distribution
 
 [2019 - Closing the Sim-to-Real Loop: Adapting Simulation Randomization with Real World Experience](https://arxiv.org/abs/1810.05687)
 
@@ -418,12 +420,23 @@ Some believe that sim2real gap is a combination of **appearance gap** and **cont
 <img src="https://deeplearn.org/arxiv_files/1810.05687v1/x1.png" width="350">
 
 [2018 - **[RCAN]** Sim-to-Real via Sim-to-Sim: Data-efficient Robotic Grasping via Randomized-to-Canonical Adaptation Networks](https://arxiv.org/abs/1812.07252)
+![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
 
 <sub> Using domain adaptation methods to cross this "reality gap" requires a large amount of unlabelled real-world data, whilst <b>domain randomization alone can waste modeling power</b>. In this paper, we present Randomized-to-Canonical Adaptation Networks (RCANs), a novel approach to crossing the visual reality gap that <b>uses no real-world data</b>. Our method learns to translate randomized rendered images into their <b>equivalent non-randomized, canonical versions</b>. This in turn allows for real images to also be translated into canonical sim images. Additionally, by <b>joint finetuning in the real-world</b> with only 5,000 real-world grasps, our method achieves 91%, attaining comparable performance to a state-of-the-art system trained with 580,000 real-world grasps, resulting in a reduction of real-world data by more than 99%.</sub>
 
 <img src="https://lilianweng.github.io/lil-log/assets/images/RCAN.png" width="350">
 
+Network-driven domain randomization (Zakharov et al., 2019), also known as DeceptionNet, is motivated by learning which randomizations are actually useful to bridge the domain gap for image classification tasks.
 
+#### Guided by Data in Simulation
+
+Network-driven domain randomization (Zakharov et al., 2019), also known as DeceptionNet, is motivated by learning which randomizations are actually useful to bridge the domain gap for image classification tasks.
+
+[2019 - **[DeceptionNet]**: Network-Driven Domain Randomization](https://arxiv.org/abs/1904.02750)
+
+<sub>We present a novel approach to tackle domain adaptation between synthetic and real data. Instead, of employing "blind" domain randomization, i.e., augmenting synthetic renderings with random backgrounds or changing illumination and colorization, we leverage the task network as its own adversarial guide <b>toward useful augmentations that maximize the uncertainty of the output</b>. To this end, we design a min-max optimization scheme where a given task competes against a special deception network to minimize the task error subject to the specific constraints enforced by the deceiver. The deception network samples from a family of <b>differentiable pixel-level perturbations</b> and exploits the task architecture to <b>find the most destructive augmentations</b>. Unlike GAN-based approaches that require unlabeled data from the target domain, our method achieves robust mappings that scale well to multiple target distributions from source data alone.</sub>
+
+<img src="https://lilianweng.github.io/lil-log/assets/images/deception-net.png" width="350">
 
 <!--- ------------------------------------------------------------------------------- -->
 <!--- =============================================================================== -->
