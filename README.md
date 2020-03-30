@@ -409,6 +409,14 @@ Some believe that sim2real gap is a combination of **appearance gap** and **cont
 
 <img src="https://nv-tlabs.github.io/meta-sim/resources/meta-sim-teaser.png" width="350">
 
+### Match Real Data Distribution
+
+[2019 - Closing the Sim-to-Real Loop: Adapting Simulation Randomization with Real World Experience](https://arxiv.org/abs/1810.05687)
+
+<sub>We consider the problem of transferring policies to the real world by training on a distribution of simulated scenarios. Rather than manually tuning the randomization of simulations, we <b>adapt the simulation parameter distribution</b> using a few real world roll-outs interleaved with policy training. In doing so, we are able to <b>change the distribution of simulations to improve the policy transfer</b> by <b>matching the policy behavior in simulation and the real world</b>. We show that policies trained with our method are able to reliably transfer to different robots in two real world tasks: swing-peg-in-hole and opening a cabinet drawer. </sub>
+
+<img src="https://deeplearn.org/arxiv_files/1810.05687v1/x1.png" width="300">
+
 <!--- ------------------------------------------------------------------------------- -->
 <!--- =============================================================================== -->
 <!--- ------------------------------------------------------------------------------- -->
