@@ -18,6 +18,7 @@
   - [Non-generative Models](#non-generative-models) 
 - [Reconstruction-based Approaches](#reconstruction-based-approaches)
 - [Synthetic Data](#synthetic-data)
+- [Domain Randomization](#domain-randomization)
 - [Style Transfer](#style-transfer) 
 - [Texture Synthesis](#texture-synthesis) 
 
@@ -349,6 +350,18 @@ Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Su
 
 <img src="https://media.springernature.com/lw785/springer-static/image/chp%3A10.1007%2F978-3-030-11009-3_42/MediaObjects/478770_1_En_42_Fig3_HTML.png" width="350">
 
+[2018 - Learning to Segment via Cut-and-Paste](http://openaccess.thecvf.com/content_ECCV_2018/papers/Tal_Remez_Learning_to_Segment_ECCV_2018_paper.pdf)
+
+<img src="https://cdn-images-1.medium.com/max/1600/0*b4CBigBlK_LyGU16" width="350">
+
+<!--- ------------------------------------------------------------------------------- -->
+<!--- =============================================================================== -->
+<!--- ------------------------------------------------------------------------------- -->
+# Domain Randomization
+<!--- ------------------------------------------------------------------------------- -->
+<!--- =============================================================================== -->
+<!--- ------------------------------------------------------------------------------- -->
+
 [2017 - Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World](https://arxiv.org/abs/1703.06907)
 
 <img src="https://i.pinimg.com/564x/99/e9/65/99e9657382ef1e94e2acb958c7c1cf6c.jpg" width="350">
@@ -356,13 +369,8 @@ Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Su
 
 [2017 - Training Deep Networks with Synthetic Data: Bridging the Reality Gap by Domain Randomization](https://arxiv.org/abs/1804.06516)
 ![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
+
 <img src="https://research.nvidia.com/sites/default/files/publications/cvpr-fig1_down4.png" width="350">
-
-
-[2018 - Learning to Segment via Cut-and-Paste](http://openaccess.thecvf.com/content_ECCV_2018/papers/Tal_Remez_Learning_to_Segment_ECCV_2018_paper.pdf)
-
-<img src="https://cdn-images-1.medium.com/max/1600/0*b4CBigBlK_LyGU16" width="350">
-
 
 <!--- ------------------------------------------------------------------------------- -->
 <!--- =============================================================================== -->
