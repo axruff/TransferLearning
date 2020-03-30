@@ -433,10 +433,18 @@ Network-driven domain randomization (Zakharov et al., 2019), also known as Decep
 Network-driven domain randomization (Zakharov et al., 2019), also known as DeceptionNet, is motivated by learning which randomizations are actually useful to bridge the domain gap for image classification tasks.
 
 [2019 - **[DeceptionNet]**: Network-Driven Domain Randomization](https://arxiv.org/abs/1904.02750)
+![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
 
 <sub>We present a novel approach to tackle domain adaptation between synthetic and real data. Instead, of employing "blind" domain randomization, i.e., augmenting synthetic renderings with random backgrounds or changing illumination and colorization, we leverage the task network as its own adversarial guide <b>toward useful augmentations that maximize the uncertainty of the output</b>. To this end, we design a min-max optimization scheme where a given task competes against a special deception network to minimize the task error subject to the specific constraints enforced by the deceiver. The deception network samples from a family of <b>differentiable pixel-level perturbations</b> and exploits the task architecture to <b>find the most destructive augmentations</b>. Unlike GAN-based approaches that require unlabeled data from the target domain, our method achieves robust mappings that scale well to multiple target distributions from source data alone.</sub>
 
 <img src="https://lilianweng.github.io/lil-log/assets/images/deception-net.png" width="350">
+
+[2019 - **[ADR]**: Active Domain Randomization](https://arxiv.org/abs/1904.04762)
+![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
+
+<sub>In this work, we empirically examine the effects of domain randomization on agent generalization. Our experiments show that domain <b>randomization may lead to suboptimal, high-variance policies</b>, which we attribute to the uniform sampling of environment parameters. We propose Active Domain Randomization, a novel algorithm that learns a <b>parameter sampling strategy</b>. Our method looks for <b>the most informative environment variations</b> within the given randomization ranges by leveraging the discrepancies of policy rollouts in randomized and reference environment instances. We find that <b>training more frequently on these instances</b> leads to better overall agent <b>generalization</b>. Our experiments across various physics-based simulated and real-robot tasks show that this enhancement leads to more robust, consistent policies.</sub>
+
+<img src="https://lilianweng.github.io/lil-log/assets/images/ADR.png" width="350">
 
 <!--- ------------------------------------------------------------------------------- -->
 <!--- =============================================================================== -->
