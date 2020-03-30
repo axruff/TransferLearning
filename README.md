@@ -417,6 +417,14 @@ Some believe that sim2real gap is a combination of **appearance gap** and **cont
 
 <img src="https://deeplearn.org/arxiv_files/1810.05687v1/x1.png" width="350">
 
+[2018 - **[RCAN]** Sim-to-Real via Sim-to-Sim: Data-efficient Robotic Grasping via Randomized-to-Canonical Adaptation Networks](https://arxiv.org/abs/1812.07252)
+
+<sub> Using domain adaptation methods to cross this "reality gap" requires a large amount of unlabelled real-world data, whilst <b>domain randomization alone can waste modeling power</b>. In this paper, we present Randomized-to-Canonical Adaptation Networks (RCANs), a novel approach to crossing the visual reality gap that <b>uses no real-world data</b>. Our method learns to translate randomized rendered images into their <b>equivalent non-randomized, canonical versions</b>. This in turn allows for real images to also be translated into canonical sim images. Additionally, by <b>joint finetuning in the real-world</b> with only 5,000 real-world grasps, our method achieves 91%, attaining comparable performance to a state-of-the-art system trained with 580,000 real-world grasps, resulting in a reduction of real-world data by more than 99%.</sub>
+
+<img src="https://lilianweng.github.io/lil-log/assets/images/RCAN.png" width="350">
+
+
+
 <!--- ------------------------------------------------------------------------------- -->
 <!--- =============================================================================== -->
 <!--- ------------------------------------------------------------------------------- -->
