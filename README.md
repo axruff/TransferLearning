@@ -365,9 +365,13 @@ Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Su
 <!--- ------------------------------------------------------------------------------- -->
 
 The environment that we have full access to (i.e. simulator) **source domain** and the environment that we would like to transfer the model to **target domain** (i.e. physical world). Training happens in the source domain. We can control a set of N randomization parameters in the source domain eξ with a configuration ξ, sampled from a randomization space.
-During training, episodes are collected from source domain with randomization applied. Thus the training is exposed to a variety of environments and learns to generalize. In a way, ***“discrepancies between the source and target domains are modeled as variability in the source domain.”*** (quote from Peng et al. 2018)
+During training, episodes are collected from source domain with randomization applied. Thus the training is exposed to a variety of environments and learns to generalize. In a way, *“discrepancies between the source and target domains are modeled as variability in the source domain.”* (quote from Peng et al. 2018)
 
 ## Uniform Randomization
+
+In the original form of DR (Tobin et al, 2017; Sadeghi et al. 2016), each randomization parameter is bounded by an interval, and each parameter is uniformly sampled within the range.
+
+The randomization parameters can control appearances of the scene, objects geometry and propeties. A model trained on simulated and randomized images is able to transfer to real non-randomized images.
 
 [2017 - Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World](https://arxiv.org/abs/1703.06907)
 
@@ -378,6 +382,10 @@ During training, episodes are collected from source domain with randomization ap
 ![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
 
 <img src="https://research.nvidia.com/sites/default/files/publications/cvpr-fig1_down4.png" width="350">
+
+[2017 - Sim-to-Real Transfer of Robotic Control with Dynamics Randomization](https://arxiv.org/abs/1710.06537)
+
+<img src="https://xbpeng.github.io/projects/SimToReal/simtoreal_teaser.png" width="400">
 
 <!--- ------------------------------------------------------------------------------- -->
 <!--- =============================================================================== -->
