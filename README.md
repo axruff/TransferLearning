@@ -402,7 +402,7 @@ The randomization parameters can control appearances of the scene, objects geome
 
 Some believe that sim2real gap is a combination of **appearance gap** and **content gap**; i.e. most GAN-inspired DA models focus on appearance gap. **Meta-Sim** (Kar, et al. 2019) aims to close the content gap by generating task-specific synthetic datasets. 
 
-[2019 - **[Meta-Sim]**: Learning to Generate Synthetic Datasets]
+[2019 - **[Meta-Sim]**: Learning to Generate Synthetic Datasets] [[website]](https://nv-tlabs.github.io/meta-sim/)
 ![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
 
 <sub>We propose Meta-Sim, which learns a <b>generative model</b> of synthetic scenes, and obtain images as well as its corresponding ground-truth via a graphics engine. We parametrize our dataset generator with a neural network, which <b>learns to modify attributes of scene graphs</b> obtained from <b>probabilistic scene grammars</b>, so as to <b>minimize the distribution gap between its rendered outputs and target data</b>. If the real dataset comes with a small labeled validation set, we additionally aim to optimize a meta-objective, i.e. downstream task performance. Experiments show that the proposed method can greatly improve <b>content generation</b> quality over a human-engineered probabilistic scene grammar, both qualitatively and quantitatively as measured by performance on a downstream task.</sub>
