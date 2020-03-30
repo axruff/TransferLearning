@@ -365,6 +365,7 @@ Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Su
 <!--- ------------------------------------------------------------------------------- -->
 
 The environment that we have full access to (i.e. simulator) **source domain** and the environment that we would like to transfer the model to **target domain** (i.e. physical world). Training happens in the source domain. We can control a set of N randomization parameters in the source domain eξ with a configuration ξ, sampled from a randomization space.
+During training, episodes are collected from source domain with randomization applied. Thus the training is exposed to a variety of environments and learns to generalize. In a way, ***“discrepancies between the source and target domains are modeled as variability in the source domain.”*** (quote from Peng et al. 2018)
 
 ## Uniform Randomization
 
