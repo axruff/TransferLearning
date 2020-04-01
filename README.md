@@ -181,6 +181,8 @@ in marginal distributions across domains by adding multiple adaptation layers an
 [2016 - **[PixelDA]** Unsupervised pixel-level domain adaptation with generative adversarial networks](https://arxiv.org/abs/1612.05424) 
 ![#c5ff15](https://placehold.it/15/c5ff15/000000?text=+)
 
+<sub>Unfortunately, models trained purely on rendered images often fail to generalize to real images. To address this shortcoming, prior work introduced <b>unsupervised domain adaptation</b> algorithms that attempt to map representations between the two domains or learn to extract features that are domain-invariant. In this work, we present a new approach that learns, in an unsupervised manner, a <b>transformation in the pixel space from one domain to the other</b>. Our generative adversarial network (GAN)-based method adapts <b>source-domain images to appear as if drawn from the target domain</b>. </sub>
+
 ***[Needs a lot of target images to successfully learn the generator]***
 
 <img src="https://i.pinimg.com/564x/f8/52/1e/f8521e45415762465e5e01452a963a31.jpg" width="400">
