@@ -439,6 +439,10 @@ Network-driven domain randomization (Zakharov et al., 2019), also known as Decep
 
 <img src="https://lilianweng.github.io/lil-log/assets/images/deception-net.png" width="350">
 
+> Recent unsupervised approaches are mostly based on generalized adversarial networks (GANs) and although these methods perform proper target domain transfers, they
+**can overfit** to the chosen target domain and exhibit a decline
+in performance for unfamiliar **out-of-distribution samples**.
+
 [2019 - **[ADR]**: Active Domain Randomization](https://arxiv.org/abs/1904.04762)
 ![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
 
