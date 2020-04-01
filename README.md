@@ -348,6 +348,9 @@ Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Su
 
 <img src="https://github.com/axruff/ML_papers/raw/master/images/PlayingforData.png" width="300">
 
+[2016 - RenderGAN: Generating Realistic Labeled Data](https://arxiv.org/abs/1611.01331)
+
+<img src="https://i.pinimg.com/564x/40/68/be/4068be6e23c520550f618c7c0179ba39.jpg" width="350">
 
 [2017 - On Pre-Trained Image Features and Synthetic Images for Deep Learning)](https://arxiv.org/abs/1710.10710)
 ![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
