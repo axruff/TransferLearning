@@ -357,6 +357,11 @@ Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Su
 
 <img src="https://media.springernature.com/lw785/springer-static/image/chp%3A10.1007%2F978-3-030-11009-3_42/MediaObjects/478770_1_En_42_Fig3_HTML.png" width="350">
 
+[2017 - Keep it Unreal: Bridging the Realism Gap for 2.5D Recognition with Geometry Priors Only](https://arxiv.org/abs/1804.09113)
+![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
+
+<sub>With the increasing availability of <b>large databases of 3D CAD models</b>, <b>depth-based recognition methods</b> can be trained on an uncountable number of synthetically rendered images. However, discrepancies with the real data acquired from various depth sensors still noticeably impede progress. Previous works adopted unsupervised approaches to generate more realistic depth data, but they all require real scans for training, even if unlabeled. This still represents a strong requirement, especially when considering <b>real-life/industrial settings</b> where real training images are hard or impossible to acquire, but texture-less 3D models are available. We thus propose a novel approach leveraging <b>only CAD models</b> to bridge the realism gap. Purely trained on synthetic data, playing against an <b>extensive augmentation pipeline</b> in an unsupervised manner, our <b>generative adversarial network</b> learns to effectively segment depth images and <b>recover the clean synthetic-looking depth<b> information even from partial occlusions. As our solution is not only fully decoupled from the real domains but also from the task-specific analytics, the pre-processed scans can be handed to any kind and number of recognition methods also trained on synthetic data.</sub>
+
 [2018 - Learning to Segment via Cut-and-Paste](http://openaccess.thecvf.com/content_ECCV_2018/papers/Tal_Remez_Learning_to_Segment_ECCV_2018_paper.pdf)
 
 <img src="https://cdn-images-1.medium.com/max/1600/0*b4CBigBlK_LyGU16" width="350">
@@ -438,7 +443,7 @@ Network-driven domain randomization (Zakharov et al., 2019), also known as Decep
 Network-driven domain randomization (Zakharov et al., 2019), also known as DeceptionNet, is motivated by learning which randomizations are actually useful to bridge the domain gap for image classification tasks.
 
 [2019 - **[DeceptionNet]**: Network-Driven Domain Randomization](https://arxiv.org/abs/1904.02750)
-![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
+![#00ff00](https://placehold.it/15/00ff00/000000?text=+)
 
 <sub>We present a novel approach to tackle domain adaptation between synthetic and real data. Instead, of employing "blind" domain randomization, i.e., augmenting synthetic renderings with random backgrounds or changing illumination and colorization, we leverage the task network as its own adversarial guide <b>toward useful augmentations that maximize the uncertainty of the output</b>. To this end, we design a min-max optimization scheme where a given task competes against a special deception network to minimize the task error subject to the specific constraints enforced by the deceiver. The deception network samples from a family of <b>differentiable pixel-level perturbations</b> and exploits the task architecture to <b>find the most destructive augmentations</b>. Unlike GAN-based approaches that require unlabeled data from the target domain, our method achieves robust mappings that scale well to multiple target distributions from source data alone.</sub>
 
