@@ -439,9 +439,19 @@ Network-driven domain randomization (Zakharov et al., 2019), also known as Decep
 
 <img src="https://lilianweng.github.io/lil-log/assets/images/deception-net.png" width="350">
 
-> Recent unsupervised approaches are mostly based on generalized adversarial networks (GANs) and although these methods perform proper target domain transfers, they
-**can overfit** to the chosen target domain and exhibit a decline
-in performance for unfamiliar **out-of-distribution samples**.
+> Recent unsupervised approaches are mostly based on generalized adversarial networks (GANs) and although these methods perform proper target domain transfers, they **can overfit** to the chosen target domain and exhibit a decline in performance for unfamiliar **out-of-distribution samples**.
+
+> First, synthetic image formation produces clear edges with approximate physical shading and illumination, whereas real
+images undergo many types of noise, defects, etc.  Second, the visual differences between synthetic CAD models
+and their actual physical counterparts can be quite significant.
+
+>  In the first phase, the synthetic input is fed to our deception network responsible for producing **augmented images** that are then passed to a recognition network to compute the final task-specific loss with provided labels.
+Then, **instead of minimizing the loss, we maximize** it via
+**gradient reversal** and only back-propagate an update to the deception network parameters.
+
+>  In this way, our method outputs images completely **independent from the
+target domain** and therefore **generalizes much better** to new
+unseen domains than related approaches.
 
 [2019 - **[ADR]**: Active Domain Randomization](https://arxiv.org/abs/1904.04762)
 ![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
