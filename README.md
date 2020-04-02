@@ -78,7 +78,7 @@ Notations
 
 [2013 - Simulation as an engine of physical scene understanding](https://www.pnas.org/content/110/45/18327)
 
-[Playing for Data: Ground Truth from Computer Games](https://arxiv.org/abs/1608.02192)
+[2016 - Playing for Data: Ground Truth from Computer Games](https://arxiv.org/abs/1608.02192)
 
 <img src="https://github.com/axruff/ML_papers/raw/master/images/PlayingforData.png" width="300">
 
@@ -489,6 +489,12 @@ unseen domains than related approaches.
 > Our approach can be placed **between domain randomization and GAN methods**, however, instead of forcing randomization without any clear guidance on its usefulness, we propose to delegate this to a neural network, which we call
 **deception network**, which tries to alter the images in an automated fashion, such that the task network is maximally
 confused
+
+> Despite of having a **very high accuracy on the target data** and the ability to generate additional samples that do not exist in the dataset, these methods
+present **typical signs of overfit** mappings that cannot generalize well to the extensions of the same data acquired in a
+similar manner. The simple reason for this might be the nature of these methods: **they do not generalize** to the features
+that matter the most for the recognition task, but to simply
+**replicate the target distribution** as close as possible.
 
 [2019 - **[ADR]**: Active Domain Randomization](https://arxiv.org/abs/1904.04762)
 ![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
