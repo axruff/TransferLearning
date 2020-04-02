@@ -68,6 +68,55 @@ Notations
 <img src="https://1.bp.blogspot.com/-FpaEErA665M/XcHniNVT8lI/AAAAAAAAE6g/0ri-gDfP9Xwn9Vqf7C6Pe-g7cyXGRVrnQCLcBGAsYHQ/s640/image1.png" width="300">
 
 
+<!--- ------------------------------------------------------------------------------- -->
+<!--- =============================================================================== -->
+<!--- ------------------------------------------------------------------------------- -->
+# Synthetic Data
+<!--- ------------------------------------------------------------------------------- -->
+<!--- =============================================================================== -->
+<!--- ------------------------------------------------------------------------------- -->
+
+[2013 - Simulation as an engine of physical scene understanding](https://www.pnas.org/content/110/45/18327)
+
+[Playing for Data: Ground Truth from Computer Games](https://arxiv.org/abs/1608.02192)
+
+<img src="https://github.com/axruff/ML_papers/raw/master/images/PlayingforData.png" width="300">
+
+[2016 - RenderGAN: Generating Realistic Labeled Data](https://arxiv.org/abs/1611.01331)
+
+<img src="https://i.pinimg.com/564x/40/68/be/4068be6e23c520550f618c7c0179ba39.jpg" width="350">
+
+[2017 - On Pre-Trained Image Features and Synthetic Images for Deep Learning)](https://arxiv.org/abs/1710.10710)
+![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
+
+<img src="https://media.springernature.com/lw785/springer-static/image/chp%3A10.1007%2F978-3-030-11009-3_42/MediaObjects/478770_1_En_42_Fig3_HTML.png" width="350">
+
+[2017 - Keep it Unreal: Bridging the Realism Gap for 2.5D Recognition with Geometry Priors Only](https://arxiv.org/abs/1804.09113)
+![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
+
+<sub>With the increasing availability of <b>large databases of 3D CAD models</b>, <b>depth-based recognition methods</b> can be trained on an uncountable number of synthetically rendered images. However, discrepancies with the real data acquired from various depth sensors still noticeably impede progress. Previous works adopted unsupervised approaches to generate more realistic depth data, but they all require real scans for training, even if unlabeled. This still represents a strong requirement, especially when considering <b>real-life/industrial settings</b> where real training images are hard or impossible to acquire, but texture-less 3D models are available. We thus propose a novel approach leveraging <b>only CAD models</b> to bridge the realism gap. Purely trained on synthetic data, playing against an <b>extensive augmentation pipeline</b> in an unsupervised manner, our <b>generative adversarial network</b> learns to effectively segment depth images and <b>recover the clean synthetic-looking depth</b> information even from partial occlusions. As our solution is not only fully decoupled from the real domains but also from the task-specific analytics, the pre-processed scans can be handed to any kind and number of recognition methods also trained on synthetic data.</sub>
+
+<img src="https://i.pinimg.com/564x/87/96/dd/8796ddea2815bc43d6087969824f7a6f.jpg" width="200">
+
+
+[2018 - Seeing Beyond Appearance - Mapping Real Images into Geometrical Domains for Unsupervised CAD-based Recognition](https://arxiv.org/abs/1810.04158)
+
+<sub>While convolutional neural networks are dominating the field of computer vision, one usually does not have access to the large amount of domain-relevant data needed for their training. It thus became common to use available <b>synthetic samples along domain adaptation</b> schemes to prepare algorithms for the target domain. Tackling this problem from a different angle, we introduce a pipeline <b>to map unseen target samples into the synthetic domain</b> used to train task-specific methods. Denoising the data and retaining only the features these recognition algorithms are familiar with, our solution greatly improves their performance. As <b>this mapping is easier to learn</b> than the opposite one (ie to learn to generate realistic features to augment the source samples), we demonstrate how our whole solution can be trained purely on augmented synthetic data, and still perform better than methods trained with domain-relevant information (eg real images or realistic textures for the 3D models). Applying our approach to object recognition from texture-less CAD data, we present a custom generative network which fully <b>utilizes the purely geometrical information</b> to learn robust features and achieve a more refined mapping for unseen color images.</sub>
+
+<img src="https://i.pinimg.com/564x/dc/eb/20/dceb20e7b4efe59e2b8bd52cc85c6d5d.jpg" width="350">
+
+
+[2019 - Implicit 3D Orientation Learning for 6D Object Detection from RGB Images](https://arxiv.org/abs/1902.01275)
+
+<sub>We propose a real-time RGB-based pipeline for object detection and 6D pose estimation. Our novel 3D orientation estimation is based on a variant of the <b>Denoising Autoencoder</b> that is trained on <b>simulated views of a 3D model</b> using <b>Domain Randomization</b>. This so-called Augmented Autoencoder has several advantages over existing methods: It does not require real, pose-annotated training data, generalizes to various test sensors and inherently handles object and view symmetries. Instead of learning an explicit mapping from input images to object poses, it provides an implicit representation of object orientations defined by samples in a latent space. Our pipeline achieves state-of-the-art performance on the T-LESS dataset both in the RGB and RGB-D domain. We also evaluate on the LineMOD dataset where we can compete with other synthetically trained approaches. We further increase performance by correcting 3D orientation estimates to account for perspective errors when the object deviates from the image center and show extended results.</sub>
+
+<img src="https://i.pinimg.com/564x/fd/43/d0/fd43d06c61d4ab53e0a2be226980e62f.jpg" width="350">
+
+
+[2018 - Learning to Segment via Cut-and-Paste](http://openaccess.thecvf.com/content_ECCV_2018/papers/Tal_Remez_Learning_to_Segment_ECCV_2018_paper.pdf)
+
+<img src="https://cdn-images-1.medium.com/max/1600/0*b4CBigBlK_LyGU16" width="350">
+
 
 # Domain Adaptation
 
@@ -339,54 +388,6 @@ Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Su
 
 
 
-<!--- ------------------------------------------------------------------------------- -->
-<!--- =============================================================================== -->
-<!--- ------------------------------------------------------------------------------- -->
-# Synthetic Data
-<!--- ------------------------------------------------------------------------------- -->
-<!--- =============================================================================== -->
-<!--- ------------------------------------------------------------------------------- -->
-
-[2013 - Simulation as an engine of physical scene understanding](https://www.pnas.org/content/110/45/18327)
-
-[Playing for Data: Ground Truth from Computer Games](https://arxiv.org/abs/1608.02192)
-
-<img src="https://github.com/axruff/ML_papers/raw/master/images/PlayingforData.png" width="300">
-
-[2016 - RenderGAN: Generating Realistic Labeled Data](https://arxiv.org/abs/1611.01331)
-
-<img src="https://i.pinimg.com/564x/40/68/be/4068be6e23c520550f618c7c0179ba39.jpg" width="350">
-
-[2017 - On Pre-Trained Image Features and Synthetic Images for Deep Learning)](https://arxiv.org/abs/1710.10710)
-![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
-
-<img src="https://media.springernature.com/lw785/springer-static/image/chp%3A10.1007%2F978-3-030-11009-3_42/MediaObjects/478770_1_En_42_Fig3_HTML.png" width="350">
-
-[2017 - Keep it Unreal: Bridging the Realism Gap for 2.5D Recognition with Geometry Priors Only](https://arxiv.org/abs/1804.09113)
-![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
-
-<sub>With the increasing availability of <b>large databases of 3D CAD models</b>, <b>depth-based recognition methods</b> can be trained on an uncountable number of synthetically rendered images. However, discrepancies with the real data acquired from various depth sensors still noticeably impede progress. Previous works adopted unsupervised approaches to generate more realistic depth data, but they all require real scans for training, even if unlabeled. This still represents a strong requirement, especially when considering <b>real-life/industrial settings</b> where real training images are hard or impossible to acquire, but texture-less 3D models are available. We thus propose a novel approach leveraging <b>only CAD models</b> to bridge the realism gap. Purely trained on synthetic data, playing against an <b>extensive augmentation pipeline</b> in an unsupervised manner, our <b>generative adversarial network</b> learns to effectively segment depth images and <b>recover the clean synthetic-looking depth</b> information even from partial occlusions. As our solution is not only fully decoupled from the real domains but also from the task-specific analytics, the pre-processed scans can be handed to any kind and number of recognition methods also trained on synthetic data.</sub>
-
-<img src="https://i.pinimg.com/564x/87/96/dd/8796ddea2815bc43d6087969824f7a6f.jpg" width="200">
-
-
-[2018 - Seeing Beyond Appearance - Mapping Real Images into Geometrical Domains for Unsupervised CAD-based Recognition](https://arxiv.org/abs/1810.04158)
-
-<sub>While convolutional neural networks are dominating the field of computer vision, one usually does not have access to the large amount of domain-relevant data needed for their training. It thus became common to use available <b>synthetic samples along domain adaptation</b> schemes to prepare algorithms for the target domain. Tackling this problem from a different angle, we introduce a pipeline <b>to map unseen target samples into the synthetic domain</b> used to train task-specific methods. Denoising the data and retaining only the features these recognition algorithms are familiar with, our solution greatly improves their performance. As <b>this mapping is easier to learn</b> than the opposite one (ie to learn to generate realistic features to augment the source samples), we demonstrate how our whole solution can be trained purely on augmented synthetic data, and still perform better than methods trained with domain-relevant information (eg real images or realistic textures for the 3D models). Applying our approach to object recognition from texture-less CAD data, we present a custom generative network which fully <b>utilizes the purely geometrical information</b> to learn robust features and achieve a more refined mapping for unseen color images.</sub>
-
-<img src="https://i.pinimg.com/564x/dc/eb/20/dceb20e7b4efe59e2b8bd52cc85c6d5d.jpg" width="350">
-
-
-[2019 - Implicit 3D Orientation Learning for 6D Object Detection from RGB Images](https://arxiv.org/abs/1902.01275)
-
-<sub>We propose a real-time RGB-based pipeline for object detection and 6D pose estimation. Our novel 3D orientation estimation is based on a variant of the <b>Denoising Autoencoder</b> that is trained on <b>simulated views of a 3D model</b> using <b>Domain Randomization</b>. This so-called Augmented Autoencoder has several advantages over existing methods: It does not require real, pose-annotated training data, generalizes to various test sensors and inherently handles object and view symmetries. Instead of learning an explicit mapping from input images to object poses, it provides an implicit representation of object orientations defined by samples in a latent space. Our pipeline achieves state-of-the-art performance on the T-LESS dataset both in the RGB and RGB-D domain. We also evaluate on the LineMOD dataset where we can compete with other synthetically trained approaches. We further increase performance by correcting 3D orientation estimates to account for perspective errors when the object deviates from the image center and show extended results.</sub>
-
-<img src="https://i.pinimg.com/564x/fd/43/d0/fd43d06c61d4ab53e0a2be226980e62f.jpg" width="350">
-
-
-[2018 - Learning to Segment via Cut-and-Paste](http://openaccess.thecvf.com/content_ECCV_2018/papers/Tal_Remez_Learning_to_Segment_ECCV_2018_paper.pdf)
-
-<img src="https://cdn-images-1.medium.com/max/1600/0*b4CBigBlK_LyGU16" width="350">
 
 <!--- ------------------------------------------------------------------------------- -->
 <!--- =============================================================================== -->
