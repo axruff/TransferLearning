@@ -364,6 +364,13 @@ Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Su
 
 <img src="https://i.pinimg.com/564x/87/96/dd/8796ddea2815bc43d6087969824f7a6f.jpg" width="200">
 
+
+[2018 - Seeing Beyond Appearance - Mapping Real Images into Geometrical Domains for Unsupervised CAD-based Recognition](https://arxiv.org/abs/1810.04158)
+
+<sub>While convolutional neural networks are dominating the field of computer vision, one usually does not have access to the large amount of domain-relevant data needed for their training. It thus became common to use available <b>synthetic samples along domain adaptation</b> schemes to prepare algorithms for the target domain. Tackling this problem from a different angle, we introduce a pipeline <b>to map unseen target samples into the synthetic domain</b> used to train task-specific methods. Denoising the data and retaining only the features these recognition algorithms are familiar with, our solution greatly improves their performance. As <b>this mapping is easier to learn</b> than the opposite one (ie to learn to generate realistic features to augment the source samples), we demonstrate how our whole solution can be trained purely on augmented synthetic data, and still perform better than methods trained with domain-relevant information (eg real images or realistic textures for the 3D models). Applying our approach to object recognition from texture-less CAD data, we present a custom generative network which fully <b>utilizes the purely geometrical information</b> to learn robust features and achieve a more refined mapping for unseen color images.</sub>
+
+<img src="https://i.pinimg.com/564x/dc/eb/20/dceb20e7b4efe59e2b8bd52cc85c6d5d.jpg" width="350">
+
 [2018 - Learning to Segment via Cut-and-Paste](http://openaccess.thecvf.com/content_ECCV_2018/papers/Tal_Remez_Learning_to_Segment_ECCV_2018_paper.pdf)
 
 <img src="https://cdn-images-1.medium.com/max/1600/0*b4CBigBlK_LyGU16" width="350">
