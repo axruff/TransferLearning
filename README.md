@@ -89,6 +89,8 @@ Notations
 [2017 - On Pre-Trained Image Features and Synthetic Images for Deep Learning)](https://arxiv.org/abs/1710.10710)
 ![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
 
+<sub>In this paper, we show that a simple trick is sufficient to train very effectively modern object detectors with synthetic images only: <b>We freeze the layers responsible for feature extraction</b> to generic layers <b>pre-trained on real images</b>, and train only the <b>remaining layers</b> with plain OpenGL rendering. Our experiments with very recent deep architectures for object recognition (Faster-RCNN, R-FCN, Mask-RCNN) and image feature extractors (InceptionResnet and Resnet) show this simple approach performs surprisingly well. </sub>
+
 <img src="https://media.springernature.com/lw785/springer-static/image/chp%3A10.1007%2F978-3-030-11009-3_42/MediaObjects/478770_1_En_42_Fig3_HTML.png" width="350">
 
 [2017 - Keep it Unreal: Bridging the Realism Gap for 2.5D Recognition with Geometry Priors Only](https://arxiv.org/abs/1804.09113)
