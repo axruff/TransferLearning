@@ -371,6 +371,14 @@ Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Su
 
 <img src="https://i.pinimg.com/564x/dc/eb/20/dceb20e7b4efe59e2b8bd52cc85c6d5d.jpg" width="350">
 
+
+[2019 - Implicit 3D Orientation Learning for 6D Object Detection from RGB Images](https://arxiv.org/abs/1902.01275)
+
+<sub>We propose a real-time RGB-based pipeline for object detection and 6D pose estimation. Our novel 3D orientation estimation is based on a variant of the <b>Denoising Autoencoder</b> that is trained on <b>simulated views of a 3D model</b> using <b>Domain Randomization</b>. This so-called Augmented Autoencoder has several advantages over existing methods: It does not require real, pose-annotated training data, generalizes to various test sensors and inherently handles object and view symmetries. Instead of learning an explicit mapping from input images to object poses, it provides an implicit representation of object orientations defined by samples in a latent space. Our pipeline achieves state-of-the-art performance on the T-LESS dataset both in the RGB and RGB-D domain. We also evaluate on the LineMOD dataset where we can compete with other synthetically trained approaches. We further increase performance by correcting 3D orientation estimates to account for perspective errors when the object deviates from the image center and show extended results.</sub>
+
+<img src="https://i.pinimg.com/564x/fd/43/d0/fd43d06c61d4ab53e0a2be226980e62f.jpg" width="350">
+
+
 [2018 - Learning to Segment via Cut-and-Paste](http://openaccess.thecvf.com/content_ECCV_2018/papers/Tal_Remez_Learning_to_Segment_ECCV_2018_paper.pdf)
 
 <img src="https://cdn-images-1.medium.com/max/1600/0*b4CBigBlK_LyGU16" width="350">
@@ -471,6 +479,10 @@ Then, **instead of minimizing the loss, we maximize** it via
 >  In this way, our method outputs images completely **independent from the
 target domain** and therefore **generalizes much better** to new
 unseen domains than related approaches.
+
+> Our approach can be placed **between domain randomization and GAN methods**, however, instead of forcing randomization without any clear guidance on its usefulness, we propose to delegate this to a neural network, which we call
+**deception network**, which tries to alter the images in an automated fashion, such that the task network is maximally
+confused
 
 [2019 - **[ADR]**: Active Domain Randomization](https://arxiv.org/abs/1904.04762)
 ![#ff0000](https://placehold.it/15/ff0000/000000?text=+)
