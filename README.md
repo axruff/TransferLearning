@@ -12,12 +12,13 @@
 
 - [Surveys](#surveys)
 - [Unsorted](#unsorted)
-- [Discrepancy-based Approaches](#discrepancy-based-approaches)
-- [Adversarial-based Approaches](#adversarial-based-approaches)
-  - [Generative Models](#generative-models) 
-  - [Non-generative Models](#non-generative-models) 
-- [Reconstruction-based Approaches](#reconstruction-based-approaches)
 - [Synthetic Data](#synthetic-data)
+- [Domain Adaptation](#domain-adaptation)
+  - [Discrepancy-based Approaches](#discrepancy-based-approaches)
+  - [Adversarial-based Approaches](#adversarial-based-approaches)
+    - [Generative Models](#generative-models) 
+    - [Non-generative Models](#non-generative-models) 
+  - [Reconstruction-based Approaches](#reconstruction-based-approaches)
 - [Domain Randomization](#domain-randomization)
   - [Uniform Randomization](#uniform-randomization)
   - [Guided Randomization](#guided-randomization)
@@ -33,7 +34,7 @@ Notations
 ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) TODO
 
 
-## Surveys 
+# Surveys 
 
 [A Survey on Transfer Learning (2010)](https://www.cse.ust.hk/~qyang/Docs/2009/tkde_transfer_learning.pdf)
 
@@ -53,7 +54,7 @@ Notations
 
 [Visual Domain Adaptation Challenge (2018)] (http://ai.bu.edu/visda-2017/)
 
-## Unsorted 
+# Unsorted 
 
 [2018 - Do Better ImageNet Models Transfer Better?](https://arxiv.org/abs/1805.08974)
 
@@ -65,6 +66,10 @@ Notations
 [2019 - A Large-scale Study of Representation Learning with the Visual Task Adaptation Benchmark](https://arxiv.org/abs/1910.04867)
 
 <img src="https://1.bp.blogspot.com/-FpaEErA665M/XcHniNVT8lI/AAAAAAAAE6g/0ri-gDfP9Xwn9Vqf7C6Pe-g7cyXGRVrnQCLcBGAsYHQ/s640/image1.png" width="300">
+
+
+
+# Domain Adaptation
 
 ## Discrepancy-based Approaches
 
