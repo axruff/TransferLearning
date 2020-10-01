@@ -341,7 +341,7 @@ thus it is possible that a **learning rate** is both too large and too small at 
 
 [2020 - **[BlockGAN]**: Learning 3D Object-aware Scene Representations from Unlabelled Images](https://arxiv.org/abs/2002.08988)
 
-<img src="https://images.squarespace-cdn.com/content/v1/570a63ac5559863dc7622dd3/1582239473511-2BBMK7NEVSTZHZQVJHK4/ke17ZwdGBToddI8pDm48kIOa65VH0aB_X8O0l2ce5QIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcLZWEQRDc5OM8rbtRrS2v4WqrWf15SPAadscpIGsOLluo1hcIgkTLy0sTLj21NVBz/DIAGRAM_testTrainCropped.gif?format=1500w" width="350">
+<img src="https://i.pinimg.com/564x/8f/10/b3/8f10b309966a9faf5430996aa7d11545.jpg" width="350">
 
 
 <!--- ------------------------------------------------------------------------------- -->
