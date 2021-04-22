@@ -120,7 +120,7 @@ Notations
 <img src="https://cdn-images-1.medium.com/max/1600/0*b4CBigBlK_LyGU16" width="350">
 
 
-[2021 - Auto-Tuned Sim-to-Real Transfer](https://arxiv.org/abs/2104.07662)
+[2021 - Auto-Tuned Sim-to-Real Transfer](https://arxiv.org/abs/2104.07662) [[github]](https://yuqingd.github.io/autotuned-sim2real/)
 
 <img src="https://yuqingd.github.io/autotuned-sim2real/resources/sys_diagram.png" width="350">
 
