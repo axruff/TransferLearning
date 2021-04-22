@@ -120,6 +120,13 @@ Notations
 <img src="https://cdn-images-1.medium.com/max/1600/0*b4CBigBlK_LyGU16" width="350">
 
 
+[2021 - Auto-Tuned Sim-to-Real Transfer](https://arxiv.org/abs/2104.07662)
+
+<img src="https://yuqingd.github.io/autotuned-sim2real/resources/sys_diagram.png" width="350">
+
+<sub>Policies trained in simulation often fail when transferred to the real world due to the <b>`reality gap'</b> where the simulator is unable to accurately capture the dynamics and visual properties of the real world. Current approaches to tackle this problem, such as domain randomization, require prior knowledge and engineering to determine how much to randomize system parameters in order to learn a policy that is robust to sim-to-real transfer while also not being too conservative. We propose a method for <b>automatically tuning simulator system parameters to match the real</b> world using only raw RGB images of the real world without the need to define rewards or estimate state. Our key insight is to reframe the auto-tuning of parameters as a search problem where we iteratively shift the simulation system parameters to approach the real-world system parameters. We propose a Search Param Model (SPM) that, given a sequence of observations and actions and a set of system parameters, predicts whether the given parameters are higher or lower than the true parameters used to generate the observations. We evaluate our method on multiple robotic control tasks in both sim-to-sim and sim-to-real transfer, demonstrating significant improvement over naive domain randomization.</sub>
+
+
 # Domain Adaptation
 
 ## Discrepancy-based Approaches
