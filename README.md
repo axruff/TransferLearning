@@ -555,6 +555,13 @@ that matter the most for the recognition task, but to simply
 
 <img src="https://i.pinimg.com/564x/f6/fa/74/f6fa740395c1b99ecee2b71f46b16751.jpg" width="350">
 
+---
+[2021 - StyleLess layer: Improving robustness for real-world driving](https://www.semanticscholar.org/paper/StyleLess-layer%3A-Improving-robustness-for-driving-Rebut-Bursuc/4f8a4bd77795d9794047e2ec5b1ca35b016ed688)
+
+<sub>Deep Neural Networks (DNNs) are a critical component for self-driving vehicles. They achieve impressive performance by reaping information from high amounts of labeled data. Yet, the full complexity of the real world cannot be encapsulated in the training data, no matter how big the dataset, and DNNs can hardly generalize to unseen conditions. Robustness to various image corruptions, caused by changing weather conditions or sensor degradation and aging, is crucial for safety when such vehicles are deployed in the real world. We address this problem through a novel type of layer, dubbed StyleLess, which enables DNNs to learn robust and informative features that can cope with varying external conditions. We propose multiple variations of this layer that can be integrated in most of the architectures and trained jointly with the main task. We validate our contribution on typical autonomousdriving tasks (detection, semantic segmentation), showing that in most cases, this approach improves predictive performance on unseen conditions (fog, rain), while preserving performance on seen conditions and objects.</sub>
+
+<img src="https://i.pinimg.com/564x/1a/30/10/1a3010305586f79c85de67cc91d43ae5.jpg" width="350">
+
 <!--- ------------------------------------------------------------------------------- -->
 <!--- =============================================================================== -->
 <!--- ------------------------------------------------------------------------------- -->
