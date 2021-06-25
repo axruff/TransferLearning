@@ -350,6 +350,13 @@ thus it is possible that a **learning rate** is both too large and too small at 
 
 <img src="https://i.pinimg.com/564x/8f/10/b3/8f10b309966a9faf5430996aa7d11545.jpg" width="350">
 
+---
+[2021 - DatasetGAN: Efficient Labeled Data Factory with Minimal Human Effort](https://www.semanticscholar.org/paper/DatasetGAN%3A-Efficient-Labeled-Data-Factory-with-Zhang-Ling/786cb74290340443e9d02ffd9669f5e2a18878b5)
+
+<sub>We introduce DatasetGAN: an automatic procedure to generate massive datasets of high-quality semantically segmented images requiring minimal human effort. Current deep networks are extremely data-hungry, benefiting from training on large-scale datasets, which are time consuming to annotate. Our method relies on the power of recent GANs to generate realistic images. We show how the GAN latent code can be decoded to produce a semantic segmentation of the image. Training the decoder only needs a few labeled examples to generalize to the rest of the latent space, resulting in an infinite annotated dataset generator! These generated datasets can then be used for training any computer vision architecture just as real datasets are. As only a few images need to be manually segmented, it becomes possible to annotate images in extreme detail and generate datasets with rich object and part segmentations. To showcase the power of our approach, we generated datasets for 7 image segmentation tasks which include pixel-level labels for 34 human face parts, and 32 car parts. Our approach outperforms all semi-supervised baselines significantly and is on par with fully supervised methods, which in some cases require as much as 100x more annotated data as our method.</sub>
+
+<img src="https://i.pinimg.com/564x/f4/09/b9/f409b943804fa87257fbd1f3aad2947f.jpg" width="350">
+
 
 <!--- ------------------------------------------------------------------------------- -->
 <!--- =============================================================================== -->
